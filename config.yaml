@@ -78,6 +78,7 @@ params:
       target="_blank" rel="noopener">Stackbit</a>. Create yours <a
       href="https://app.stackbit.com/create?theme=fjord&utm_source=deployed-footer"
       target="_blank" rel="noopener">now</a>
+  domain: 'https://test-blog-d4ab4.netlify.app'
 taxonomies:
   stub: stub
 disableKinds:
