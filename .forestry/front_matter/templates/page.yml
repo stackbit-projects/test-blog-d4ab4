@@ -1,0 +1,39 @@
+---
+label: Page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+  description: The title of the page
+  config:
+    required: true
+- type: text
+  name: subtitle
+  label: Subtitle
+  description: The text shown just below the page title
+- type: file
+  name: img_path
+  label: Background Image
+  description: >-
+    The background image of the left side. If no image added, the default image
+    specified in Header Configuration is displayed.
+- type: field_group
+  name: seo
+  label: Seo
+  fields:
+  - type: include
+    name: include_stackbit_page_meta
+    label: Page meta data
+    template: stackbit_page_meta
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: page
+  config:
+    required: true
+pages:
+- about.md
+- style-guide.md
+- success.md

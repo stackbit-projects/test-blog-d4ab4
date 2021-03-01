@@ -1,0 +1,65 @@
+---
+label: Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+  description: The title of the post
+  config:
+    required: true
+- type: text
+  name: subtitle
+  label: Subtitle
+  description: The text shown just below the post title
+- type: datetime
+  name: date
+  label: Date
+  config:
+    required: true
+- type: file
+  name: thumb_img_path
+  label: Image (Blog Feed)
+  description: The image shown in the blog feed
+- type: text
+  name: thumb_img_alt
+  label: Image Alt Text (Blog Feed)
+  description: The alt text of the blog feed image
+- type: file
+  name: content_img_path
+  label: Background Image (Single Post)
+  description: >-
+    The background image of the left side in the single post. If no image added,
+    the default image specified in Header Configuration is displayed.
+- type: text
+  name: excerpt
+  label: Excerpt
+  description: The excerpt of the post displayed in the blog feed
+- type: boolean
+  name: hide_header
+  label: Hide sidebar
+  description: Hide the left side in the single post
+  default: false
+- type: field_group
+  name: seo
+  label: Seo
+  fields:
+  - type: include
+    name: include_stackbit_page_meta
+    label: Page meta data
+    template: stackbit_page_meta
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: post
+  config:
+    required: true
+pages:
+- posts/basic-rules-for-walking-in-the-mountains.md
+- posts/fox-village-in-japan.md
+- posts/fragments-of-iceland.md
+- posts/moving-to-new-york.md
+- posts/nature.md
+- posts/photography.md
+- posts/working-from-home.md
