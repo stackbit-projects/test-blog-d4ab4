@@ -28,9 +28,8 @@ fields:
 - type: file
   name: content_img_path
   label: Background Image (Single Post)
-  description: >-
-    The background image of the left side in the single post. If no image added,
-    the default image specified in Header Configuration is displayed.
+  description: The background image of the left side in the single post. If no image
+    added, the default image specified in Header Configuration is displayed.
 - type: text
   name: excerpt
   label: Excerpt
@@ -56,10 +55,10 @@ fields:
   config:
     required: true
 pages:
-- posts/basic-rules-for-walking-in-the-mountains.md
-- posts/fox-village-in-japan.md
-- posts/fragments-of-iceland.md
-- posts/moving-to-new-york.md
-- posts/nature.md
-- posts/photography.md
-- posts/working-from-home.md
+- content/posts/basic-rules-for-walking-in-the-mountains.md
+- content/posts/fox-village-in-japan.md
+- content/posts/fragments-of-iceland.md
+- content/posts/moving-to-new-york.md
+- content/posts/nature.md
+- content/posts/photography.md
+- content/posts/working-from-home.md

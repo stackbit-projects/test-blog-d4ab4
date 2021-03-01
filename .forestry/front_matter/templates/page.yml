@@ -15,9 +15,8 @@ fields:
 - type: file
   name: img_path
   label: Background Image
-  description: >-
-    The background image of the left side. If no image added, the default image
-    specified in Header Configuration is displayed.
+  description: The background image of the left side. If no image added, the default
+    image specified in Header Configuration is displayed.
 - type: field_group
   name: seo
   label: Seo
@@ -34,6 +33,6 @@ fields:
   config:
     required: true
 pages:
-- about.md
-- style-guide.md
-- success.md
+- content/about.md
+- content/style-guide.md
+- content/success.md

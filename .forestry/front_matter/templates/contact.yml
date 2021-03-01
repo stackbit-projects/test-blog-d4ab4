@@ -15,21 +15,19 @@ fields:
 - type: file
   name: img_path
   label: Background Image
-  description: >-
-    The background image of the left side. If no image added, the default image
-    specified in Header Configuration is displayed.
+  description: The background image of the left side. If no image added, the default
+    image specified in Header Configuration is displayed.
 - type: text
   name: form_id
   label: Form ID
-  description: 'A unique identifier of the form, must not contain whitespace'
+  description: A unique identifier of the form, must not contain whitespace
   config:
     required: true
 - type: text
   name: form_action
   label: Form Action
-  description: >-
-    The path of your custom "success" page, if you want to replace the default
-    success message
+  description: The path of your custom "success" page, if you want to replace the
+    default success message
 - type: field_group_list
   name: form_fields
   label: Form Fields
@@ -61,4 +59,4 @@ fields:
   config:
     required: true
 pages:
-- contact.md
+- content/contact.md
